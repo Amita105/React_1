@@ -1,0 +1,43 @@
+useContext:
+
+suppose we have a component heiraricy
+
+parent component
+
+component A
+
+component B 
+
+component C
+
+if their is some data in parent component which is 
+only needed by child component C 
+
+usually we follow and pass props from one component to other.
+
+with the help of conetxApi , or useContext
+
+a game if some one said to one person : First--second--third--fourth--fifth
+
+so we use useContext API to solve this problem and pass the props 
+directly to the child component who needs it. instead of passing it to 
+each level.
+
+
+createContext()
+
+Provider()
+
+Consumer()
+
+
+first create comA  B  C and return h1 element
+
+lets create context now variables 
+
+firstName 
+
+after createContext we need to export it. else we cannot use it.
+
+
+
